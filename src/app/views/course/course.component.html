@@ -1,0 +1,16 @@
+<h1>Enter your course</h1>
+<form #myForm='ngForm' class="container text-center " >
+    <div class="mb-3 form-group">
+      <label for="name" class="form-label">Name</label><br>
+      <input type="text" class="form-control" id="name" name="name" ngModel #name='ngModel'>
+    </div>
+    <div class="mb-3 form-group">
+        <label for="teacher" class="form-label">Teacher</label><br>
+        <input type="text" class="form-control" id="teacher" name="teacher" ngModel #teacher='ngModel'>
+      </div>
+      <div class="mb-3 form-group">
+        <label for="price" class="form-label">Price</label><br>
+        <input type="text" class="form-control" id="price" name="price" ngModel #price='ngModel'>
+      </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
