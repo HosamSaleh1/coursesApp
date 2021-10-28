@@ -25,19 +25,7 @@ import { FooterComponent } from './layout/footer/footer.component';
     AppRoutingModule,
     FormsModule,
     AngularFireModule.initializeApp({
-      apiKey: "AIzaSyAA7daYnx74q3Mm3es6JkM68Zuz_6yzW94",
-
-      authDomain: "courses-nti-app.firebaseapp.com",
-    
-      projectId: "courses-nti-app",
-    
-      storageBucket: "courses-nti-app.appspot.com",
-    
-      messagingSenderId: "314080265540",
-    
-      appId: "1:314080265540:web:0db1d2769139d4b8dcc311",
-    
-      measurementId: "G-JVN0YY1PNL"
+      
     
     }),
     AngularFirestoreModule
