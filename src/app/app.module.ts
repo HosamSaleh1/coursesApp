@@ -9,12 +9,16 @@ import { AngularFirestoreModule } from '@angular/fire/firestore';
 import { CourseComponent } from './views/course/course.component';
 import { SingleCourseComponent } from './views/single-course/single-course.component'
 import { CourseService } from './services/course.service';
+import { HeaderComponent } from './layout/header/header.component';
+import { FooterComponent } from './layout/footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CourseComponent,
-    SingleCourseComponent
+    SingleCourseComponent,
+    HeaderComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

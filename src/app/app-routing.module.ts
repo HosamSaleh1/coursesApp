@@ -5,7 +5,7 @@ import { SingleCourseComponent } from './views/single-course/single-course.compo
 
 const routes: Routes = [
   {path:'',component:CourseComponent},
-  {path:'singleCourse',component:SingleCourseComponent}
+  {path:'singleCourse/:id',component:SingleCourseComponent}
 ];
 
 @NgModule({
